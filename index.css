@@ -1,0 +1,662 @@
+body {
+    background-color:#bbbcd6;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.navegador{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: #4054EB;
+}
+.menu{
+    text-decoration: inherit;
+    width: 100%;
+}
+
+.boton {
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    flex-wrap: wrap;
+    height: 30%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.contenedor{
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.portada {
+    display: flex;
+    margin-top: 5%; 
+    margin-left: 2%;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-size: large;
+    font-size: 90%;
+
+}
+.parrafo1 {
+    margin-top: 10%;
+    margin-left: 2%;
+    font-family: 'Cairo', sans-serif;
+    align-self: flex-start;
+    position: absolute;
+    height: 20%;
+    width: 40%;
+    font-size: 70%;
+}
+
+.boton1 {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 150%;
+    margin-top: 10%;
+    color: white;
+    background-color:#604ab6;
+    border: none;
+    height: 30%;
+    width: 40%;
+    border-radius: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.imagenmarketing {
+    width: 30%;
+    height: 35%;
+    margin-left: 45%;
+    margin-top: 2%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.galeria {
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    align-self: flex-start;
+}
+.imagenesposteo {
+    width: 100%;
+    height: 480px;
+}
+.posteogirona {
+    width: 27%;
+    height: 40%;
+    margin-left: 5%;
+    position: absolute;
+}
+.posteocomexar {
+    width: 27%;
+    height: 40%;
+    margin-left: 35%;
+    position: absolute;
+}
+.posteootorrino {
+    width: 27%;
+    height: 40%;
+    margin-left: 65%;
+    position: absolute;
+}
+.contenedorcontacto {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(218, 38, 179, 0.678);
+    background:
+radial-gradient(circle at 100% 50%, transparent 20%, rgba(218, 38, 179, 0.678) 21%, rgba(218, 38, 179, 0.678) 34%, transparent 35%, transparent),
+radial-gradient(circle at 0% 50%, transparent 20%, rgba(218, 38, 179, 0.678) 21%, rgba(218, 38, 179, 0.678) 34%, transparent 35%, transparent) 0 -50px;
+background-color: rgba(218, 38, 179, 0.678);
+background-size:75px 100px;
+    display: flex;
+    }
+.contacto {
+    margin-left: 50%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    align-self: flex-start;
+    }
+.parrafo2 {
+    margin-top: 1%;
+    margin-left: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    align-self: flex-start;
+    position: absolute;
+    }
+
+.formulario {
+    margin-top: 8%;
+    margin-left: 40%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    list-style: none;
+    }
+
+textarea{
+    resize: none;
+}
+
+
+.enviar {
+    font-family: 'Quicksand';
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    font-size: 100%;
+    color: white;
+    background-color:#604ab6;
+    border: none;
+    height: 50%;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 15%;
+}    
+.contenedorregistro {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(90, 75, 87, 0.678);
+    display: flex;
+}
+.registro {
+    margin-left: 30%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    align-self: flex-start;
+    width: 100%;
+
+}
+.parrafo3 {
+    margin-top: 1%;
+    margin-left: 3%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    align-self: flex-start;
+    position: absolute;
+}
+.formulario2 {
+    margin-top: 7%;
+    margin-left: 40%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    align-self: flex-start;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    display: inline;
+    list-style: none;
+}
+
+.aceptar {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0.6px;
+    color: black;
+    background-color:white;
+    border-color: black;
+    height: 10%;
+    width: 28%;
+    text-align: center;
+    margin-top: 1%;
+
+}
+.columna1 {
+    text-align: center;
+    display: inline;
+}
+
+.imageninstagram {
+    width: 2%;
+    height: 2%;
+    position: absolute;
+    margin-left: 42%;
+}
+.redsocialinstagram {
+    margin-left: 30px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 90%;
+}
+.logowhatsapp {
+    width: 2%;
+    height: 2%;
+    position: absolute;
+    margin-left: 42%;
+
+}
+.whatsapp {
+    font-family: 'Cairo', sans-serif;
+    font-size: 90%;
+}
+.creacion {
+    font-family: 'Cairo', sans-serif;
+    font-size: 90%;
+}
+
+@media (max-width: 1600px) {
+    .imagenmarketing{
+    height: 30%;
+    }
+    .imagenesposteo{
+        height: 550px;
+    }
+    .formulario2{
+        margin-top: 5%;
+    }
+}
+@media (max-width: 1040px) {
+    .contenedor{
+        height: 270px;
+    }
+    .imagenmarketing{
+        height: 28%;
+    }
+    .imagenesposteo{
+        height: 350px;
+    }
+}
+@media (max-width: 893px) {
+    .contenedor{
+        height: 250px;
+    }
+    .imagenmarketing{
+        height: 25%;
+    }
+    .imagenesposteo{
+        height: 300px;
+    }
+    .formulario{
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    .prueba{
+        margin-top: 40%;
+    }
+    .textarea{ 
+        width: 96%;
+        margin-top: 2%;
+    }
+    .formulario2{
+        margin-top: 10%;
+    }
+}
+@media (max-width: 892px) {
+.posteogirona {
+    width: 30%;
+    height: 34%;
+    margin-left: 4%;
+}
+.posteocomexar{
+    width: 30%;
+    height: 34%;
+    margin-left: 37%;
+}
+.posteootorrino{
+    width: 30%;
+    height: 34%;
+    margin-left: 70%;
+}
+}
+@media (max-width:856px) {
+    .posteogirona {
+        width: 30%;
+        height: 34%;
+        margin-left: 4%;
+    }
+    .posteocomexar{
+        width: 30%;
+        height: 34%;
+        margin-left: 37%;
+    }
+.posteootorrino{
+        width: 30%;
+        height: 34%;
+        margin-left: 70%;
+    }
+}
+@media (max-width:788px) {
+    .contenedor{
+        height: 270px;
+    }
+    .imagenmarketing{
+        height: 30%;
+    }
+    .portada{
+        font-size: 80%;
+    }
+    .parrafo1{
+        font-size: 60%;
+    }
+    .imagenesposteo{
+        height: 250px;
+    }
+    .posteogirona {
+        width: 30%;
+        height: 34%;
+        margin-left: 4%;
+    }
+    .posteocomexar{
+        width: 30%;
+        height: 34%;
+        margin-left: 37%;
+    }
+.posteootorrino{
+        width: 30%;
+        height: 34%;
+        margin-left: 70%;
+    }
+    .formulario{
+        margin-top: 3%;
+        margin-left: 40%;
+    }
+    .textarea{ 
+        width: 96%;
+        margin-top: 2%;
+    }
+    .formulario2{
+        margin-top: 10%;
+    }
+    .aceptar{
+        width: 50%;
+    }
+}
+
+@media (max-width: 520px) {
+    .contenedor{
+        width: 70%;
+        height: 160px;
+        }
+    .portada{
+            font-size: 60%;
+        }
+    .parrafo1 {
+            font-size: 50%;
+            margin-top: 10%;
+        }
+    .boton1 {
+            height: 10%;
+            width: 30%;
+            font-size: 100%;
+            margin-top: 5%;
+        }
+    .imagenmarketing {
+            width: 20%;
+            height: 13%;
+        }
+    .galeria{
+            margin-left: 40%;
+            font-size: 90%;
+        }
+    .posteogirona {
+            width: 15%;
+            height: 12%;
+            margin-left: 10%;
+        }
+    .posteocomexar{
+            width: 15%;
+            height: 12%;
+            margin-left: 40%;
+        }
+    .posteootorrino{
+            width: 15%;
+            height: 12%;
+            margin-left: 70%;
+        }
+    .imagenesposteo {
+        height: 170px;
+        }
+    .contenedorcontacto{
+            height: 280px;
+        }
+    .contacto{
+            font-size: 60%;
+        }
+    .parrafo2{
+            font-size: 50%;
+        }
+    .formulario{
+            font-size: 80%;
+        }
+        .prueba {
+            margin-top: 15%;
+        }
+    .enviar{
+            font-size: 90%;
+        }
+    .contenedorregistro{
+        height: 200px;
+    }
+    .registro{
+        font-size: 70%;
+    }
+    .parrafo3{
+        font-size: 50%;
+    }
+    .formulario2{
+        font-size: 70%;
+        margin-left: 40%;
+        margin-top: 12%;
+    }
+        .aceptar{ 
+        font-size: 70%;
+        width: 40%;
+        height: 8%;
+        margin-top: 2%;
+    }
+    .columna1{
+            font-size: 40%;
+        }
+    .whatsapp{
+        font-size: 80%;
+        }
+    .creacion{
+        font-size: 80%;
+        }
+}
+
+@media (max-width: 457px) {
+    .navegador{
+        font-size: 10%;
+        }
+    .contenedor{
+        width: 70%;
+        height: 160px;
+        }
+        .portada{
+            font-size: 60%;
+        }
+    .parrafo1 {
+            font-size: 50%;
+            margin-top: 10%;
+        }
+    .boton1 {
+            height: 10%;
+            width: 30%;
+            font-size: 100%;
+            margin-top: 5%;
+        }
+    .imagenmarketing {
+            width: 20%;
+            height: 13%;
+        }
+    .galeria{
+            margin-left: 40%;
+            font-size: 90%;
+        }
+    .posteogirona {
+            width: 15%;
+            height: 12%;
+            margin-left: 10%;
+        }
+    .posteocomexar{
+            width: 15%;
+            height: 12%;
+            margin-left: 40%;
+        }
+    .posteootorrino{
+            width: 15%;
+            height: 12%;
+            margin-left: 70%;
+        }
+    .imagenesposteo {
+        height: 170px;
+        }
+    .contenedorcontacto{
+            height: 280px;
+        }
+    .contacto{
+            font-size: 60%;
+        }
+    .parrafo2{
+            font-size: 50%;
+        }
+    .formulario{
+            font-size: 80%;
+        }
+        .prueba {
+            margin-top: 15%;
+        }
+    .enviar{
+            font-size: 90%;
+        }
+    .contenedorregistro{
+        height: 200px;
+    }
+    .registro{
+        font-size: 70%;
+    }
+    .parrafo3{
+        font-size: 50%;
+    }
+    .formulario2{
+        font-size: 70%;
+        margin-left: 40%;
+        margin-top: 12%;
+    }
+        .aceptar{ 
+        font-size: 70%;
+        width: 40%;
+        height: 8%;
+        margin-top: 2%;
+    }
+    .columna1{
+            font-size: 40%;
+        }
+    .whatsapp{
+        font-size: 80%;
+        }
+    .creacion{
+        font-size: 80%;
+        }
+}
+
+@media (max-width: 426px) {
+    .navegador{
+        font-size: 10%;
+        }
+    .contenedor{
+        width: 70%;
+        height: 160px;
+        }
+    .portada{
+            font-size: 50%;
+        }
+    .parrafo1 {
+            font-size: 40%;
+            margin-top: 10%;
+        }
+    .boton1 {
+            height: 10%;
+            width: 30%;
+            font-size: 100%;
+            margin-top: 10%;
+        }
+    .imagenmarketing {
+            width: 20%;
+            height: 13%;
+        }
+    .galeria{
+            margin-left: 40%;
+            font-size: 90%;
+        }
+    .posteogirona {
+            width: 15%;
+            height: 12%;
+            margin-left: 10%;
+        }
+    .posteocomexar{
+            width: 15%;
+            height: 12%;
+            margin-left: 40%;
+        }
+    .posteootorrino{
+            width: 15%;
+            height: 12%;
+            margin-left: 70%;
+        }
+    .imagenesposteo {
+        height: 170px;
+        }
+    .contenedorcontacto{
+            height: 280px;
+        }
+    .contacto{
+            font-size: 60%;
+        }
+    .parrafo2{
+            font-size: 50%;
+        }
+    .formulario{
+            font-size: 80%;
+        }
+        .prueba {
+            margin-top: 15%;
+        }
+    .enviar{
+            font-size: 90%;
+        }
+    .contenedorregistro{
+        height: 200px;
+    }
+    .registro{
+        font-size: 70%;
+    }
+    .parrafo3{
+        font-size: 50%;
+    }
+    .formulario2{
+        font-size: 70%;
+        margin-left: 30%;
+        margin-top: 12%;
+    }
+        .aceptar{ 
+        font-size: 70%;
+        width: 40%;
+        height: 8%;
+        margin-top: 2%;
+    }
+    .columna1{
+            font-size: 40%;
+        }
+    .whatsapp{
+        font-size: 80%;
+        }
+    .creacion{
+        font-size: 80%;
+        }
+    }
