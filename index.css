@@ -45,9 +45,8 @@ body {
     position: absolute;
     font-size: large;
     font-size: 90%;
-
 }
-.parrafo1 {
+.parrafo-nosotros {
     margin-top: 10%;
     margin-left: 2%;
     font-family: 'Cairo', sans-serif;
@@ -77,7 +76,7 @@ a, a:visited {
     color: white;
 }
 
-.imagenmarketing {
+.imagen-marketing {
     width: 30%;
     height: 35%;
     margin-left: 45%;
@@ -93,29 +92,29 @@ a, a:visited {
     font-size: 40px;
     align-self: flex-start;
 }
-.imagenesposteo {
+.imagenes-posteo {
     width: 100%;
     height: 480px;
 }
-.posteogirona {
+.posteo-girona {
     width: 27%;
     height: 40%;
     margin-left: 5%;
     position: absolute;
 }
-.posteocomexar {
+.posteo-comexar {
     width: 27%;
     height: 40%;
     margin-left: 35%;
     position: absolute;
 }
-.posteootorrino {
+.posteo-otorrino {
     width: 27%;
     height: 40%;
     margin-left: 65%;
     position: absolute;
 }
-.contenedorcontacto {
+.contenedor-contacto {
     width: 100%;
     height: 450px;
     background-color: rgba(218, 38, 179, 0.678);
@@ -132,7 +131,7 @@ background-size:75px 100px;
     font-size: 20px;
     align-self: flex-start;
     }
-.parrafo2 {
+.parrafo-contacto {
     margin-top: 1%;
     margin-left: 15px;
     font-family: 'Cairo', sans-serif;
@@ -141,7 +140,7 @@ background-size:75px 100px;
     position: absolute;
     }
 
-.formulario {
+.formulario-contacto {
     margin-top: 8%;
     margin-left: 40%;
     font-family: 'Cairo', sans-serif;
@@ -154,8 +153,7 @@ textarea{
     resize: none;
 }
 
-
-.enviar {
+.boton-enviar {
     font-family: 'Quicksand';
     font-weight: 300;
     letter-spacing: 0.6px;
@@ -169,7 +167,7 @@ textarea{
     margin-top: 5%;
     margin-left: 15%;
 }    
-.contenedorregistro {
+.contenedor-registro {
     width: 100%;
     height: 300px;
     background-color: rgba(90, 75, 87, 0.678);
@@ -183,7 +181,7 @@ textarea{
     width: 100%;
 
 }
-.parrafo3 {
+.parrafo-registro {
     margin-top: 1%;
     margin-left: 3%;
     font-family: 'Cairo', sans-serif;
@@ -191,7 +189,7 @@ textarea{
     align-self: flex-start;
     position: absolute;
 }
-.formulario2 {
+.formulario-cliente {
     margin-top: 7%;
     margin-left: 40%;
     font-family: 'Cairo', sans-serif;
@@ -204,7 +202,7 @@ textarea{
     list-style: none;
 }
 
-.aceptar {
+.boton-aceptar {
     font-family: 'Cairo', sans-serif;
     letter-spacing: 0.6px;
     color: black;
@@ -214,9 +212,8 @@ textarea{
     width: 28%;
     text-align: center;
     margin-top: 1%;
-
 }
-.columna1 {
+.columna-buscanos {
     text-align: center;
     display: inline;
 }
@@ -237,7 +234,6 @@ textarea{
     height: 2%;
     position: absolute;
     margin-left: 42%;
-
 }
 .whatsapp {
     font-family: 'Cairo', sans-serif;
@@ -252,78 +248,91 @@ textarea{
     .imagenmarketing{
     height: 30%;
     }
-    .imagenesposteo{
+    .imagenes-posteo{
         height: 550px;
     }
-    .formulario2{
-        margin-top: 5%;
+    .formulario-cliente{
+        margin-top: 7%;
+    }
+    .textarea {
+        width: 96%;
+        margin-top: 2%;
     }
 }
 @media (max-width: 1040px) {
     .contenedor{
         height: 270px;
     }
-    .imagenmarketing{
+    .imagen-marketing{
         height: 28%;
     }
-    .imagenesposteo{
+    .imagenes-posteo{
         height: 350px;
+    }
+    .boton-aceptar{
+        width: 40%;
     }
 }
 @media (max-width: 893px) {
     .contenedor{
         height: 250px;
     }
-    .imagenmarketing{
+    .imagen-marketing{
         height: 25%;
     }
-    .imagenesposteo{
+    .imagenes-posteo{
         height: 300px;
     }
-    .formulario{
-        margin-top: 10%;
+    .formulario-contacto{
+        margin-top: 3%;
         margin-left: 40%;
     }
-    .prueba{
+    .cuadro-completar{
         margin-top: 40%;
     }
     .textarea{ 
         width: 96%;
         margin-top: 2%;
     }
-    .formulario2{
+    .formulario-cliente{
         margin-top: 10%;
+    }
+    .boton-aceptar{
+        width: 40%;
     }
 }
 @media (max-width: 892px) {
-.posteogirona {
+.posteo-girona {
     width: 30%;
     height: 34%;
     margin-left: 4%;
 }
-.posteocomexar{
+.posteo-comexar{
     width: 30%;
     height: 34%;
     margin-left: 37%;
 }
-.posteootorrino{
+.posteo-otorrino{
     width: 30%;
     height: 34%;
     margin-left: 70%;
 }
+.boton-aceptar{
+    width: 50%;
+}
 }
 @media (max-width:856px) {
-    .posteogirona {
+    .posteo-girona {
         width: 30%;
         height: 34%;
         margin-left: 4%;
     }
-    .posteocomexar{
+    .posteo-comexar{
         width: 30%;
         height: 34%;
         margin-left: 37%;
     }
-.posteootorrino{
+    .posteo-otorrino{
         width: 30%;
         height: 34%;
         margin-left: 70%;
@@ -333,34 +342,34 @@ textarea{
     .contenedor{
         height: 270px;
     }
-    .imagenmarketing{
+    .imagen-marketing{
         height: 30%;
     }
     .portada{
         font-size: 80%;
     }
-    .parrafo1{
+    .parrafo-nosotros{
         font-size: 60%;
     }
-    .imagenesposteo{
+    .imagenes-posteo{
         height: 250px;
     }
-    .posteogirona {
+    .posteo-girona {
         width: 30%;
         height: 34%;
         margin-left: 4%;
     }
-    .posteocomexar{
+    .posteo-comexar{
         width: 30%;
         height: 34%;
         margin-left: 37%;
     }
-.posteootorrino{
+    .posteo-otorrino{
         width: 30%;
         height: 34%;
         margin-left: 70%;
     }
-    .formulario{
+    .formulario-contacto{
         margin-top: 3%;
         margin-left: 40%;
     }
@@ -368,11 +377,14 @@ textarea{
         width: 96%;
         margin-top: 2%;
     }
-    .formulario2{
+    .formulario-cliente{
         margin-top: 10%;
     }
-    .aceptar{
+    .boton-aceptar{
         width: 50%;
+    }
+    .formulario-cliente{
+        margin-top: 15%;
     }
 }
 
@@ -382,84 +394,84 @@ textarea{
         height: 160px;
         }
     .portada{
-            font-size: 60%;
+        font-size: 60%;
         }
-    .parrafo1 {
-            font-size: 50%;
-            margin-top: 10%;
+    .parrafo-nosotros {
+        font-size: 50%;
+        margin-top: 10%;
         }
     .boton1 {
-            height: 10%;
-            width: 30%;
-            font-size: 100%;
-            margin-top: 5%;
+        height: 10%;
+        width: 30%;
+        font-size: 100%;
+        margin-top: 5%;
         }
-    .imagenmarketing {
-            width: 20%;
-            height: 13%;
+    .imagen-marketing {
+        width: 20%;
+        height: 13%;
         }
     .galeria{
-            margin-left: 40%;
-            font-size: 90%;
+        margin-left: 40%;
+        font-size: 90%;
         }
-    .posteogirona {
-            width: 15%;
-            height: 12%;
+    .posteo-girona {
+            width: 25%;
+            height: 19%;
             margin-left: 10%;
         }
-    .posteocomexar{
-            width: 15%;
-            height: 12%;
+    .posteo-comexar{
+            width: 25%;
+            height: 19%;
             margin-left: 40%;
         }
-    .posteootorrino{
-            width: 15%;
-            height: 12%;
+    .posteo-otorrino{
+            width: 25%;
+            height: 19%;
             margin-left: 70%;
         }
-    .imagenesposteo {
+    .imagenes-posteo {
         height: 170px;
         }
-    .contenedorcontacto{
+    .contenedor-contacto{
             height: 280px;
         }
     .contacto{
             font-size: 60%;
         }
-    .parrafo2{
+    .parrafo-contacto{
             font-size: 50%;
         }
-    .formulario{
+    .formulario-contacto{
             font-size: 80%;
         }
-        .prueba {
+    .cuadro-completar {
             margin-top: 15%;
         }
-    .enviar{
+    .boton-enviar{
             font-size: 90%;
         }
-    .contenedorregistro{
+    .contenedor-registro{
         height: 200px;
     }
     .registro{
         font-size: 70%;
     }
-    .parrafo3{
-        font-size: 50%;
+    .parrafo-registro{
+        font-size: 70%;
     }
-    .formulario2{
+    .formulario-cliente{
         font-size: 70%;
         margin-left: 40%;
         margin-top: 12%;
     }
-        .aceptar{ 
+    .boton-aceptar{ 
         font-size: 70%;
         width: 40%;
         height: 8%;
         margin-top: 2%;
     }
-    .columna1{
-            font-size: 40%;
+    .columna-buscanos{
+        font-size: 40%;
         }
     .whatsapp{
         font-size: 80%;
@@ -477,10 +489,10 @@ textarea{
         width: 70%;
         height: 160px;
         }
-        .portada{
+    .portada{
             font-size: 60%;
         }
-    .parrafo1 {
+    .parrafo-nosotros {
             font-size: 50%;
             margin-top: 10%;
         }
@@ -490,7 +502,7 @@ textarea{
             font-size: 100%;
             margin-top: 5%;
         }
-    .imagenmarketing {
+    .imagen-marketing {
             width: 20%;
             height: 13%;
         }
@@ -498,64 +510,64 @@ textarea{
             margin-left: 40%;
             font-size: 90%;
         }
-    .posteogirona {
-            width: 15%;
-            height: 12%;
-            margin-left: 10%;
+    .posteo-girona {
+        width: 20%;
+        height: 15%;
+        margin-left: 10%;
         }
-    .posteocomexar{
-            width: 15%;
-            height: 12%;
-            margin-left: 40%;
+    .posteo-comexar{
+        width: 20%;
+        height: 15%;
+        margin-left: 40%;
         }
-    .posteootorrino{
-            width: 15%;
-            height: 12%;
-            margin-left: 70%;
+    .posteo-otorrino{
+        width: 20%;
+        height: 15%;
+        margin-left: 70%;
         }
-    .imagenesposteo {
+    .imagenes-posteo {
         height: 170px;
         }
-    .contenedorcontacto{
+    .contenedor-contacto{
             height: 280px;
         }
     .contacto{
             font-size: 60%;
         }
-    .parrafo2{
+    .parrafo-contacto{
             font-size: 50%;
         }
-    .formulario{
+    .formulario-contacto{
             font-size: 80%;
         }
-        .prueba {
+    .cuadro-completar {
             margin-top: 15%;
         }
-    .enviar{
+    .boton-enviar{
             font-size: 90%;
         }
-    .contenedorregistro{
+    .contenedor-registro{
         height: 200px;
     }
     .registro{
         font-size: 70%;
     }
-    .parrafo3{
-        font-size: 50%;
+    .parrafo-registro{
+        font-size: 60%;
     }
-    .formulario2{
+    .formulario-cliente{
         font-size: 70%;
         margin-left: 40%;
         margin-top: 12%;
     }
-        .aceptar{ 
+    .boton-aceptar{ 
         font-size: 70%;
         width: 40%;
         height: 8%;
         margin-top: 2%;
     }
-    .columna1{
-            font-size: 40%;
+    .columna-buscanos{
+        font-size: 40%;
         }
     .whatsapp{
         font-size: 80%;
@@ -574,84 +586,84 @@ textarea{
         height: 160px;
         }
     .portada{
-            font-size: 50%;
+        font-size: 50%;
         }
-    .parrafo1 {
-            font-size: 40%;
-            margin-top: 10%;
+    .parrafo-nosotros {
+        font-size: 40%;
+        margin-top: 10%;
         }
     .boton1 {
-            height: 10%;
-            width: 30%;
-            font-size: 100%;
-            margin-top: 10%;
+        height: 10%;
+        width: 30%;
+        font-size: 100%;
+        margin-top: 10%;
         }
-    .imagenmarketing {
-            width: 20%;
-            height: 13%;
+    .imagen-marketing {
+        width: 20%;
+        height: 13%;
         }
     .galeria{
-            margin-left: 40%;
-            font-size: 90%;
+        margin-left: 40%;
+        font-size: 90%;
         }
-    .posteogirona {
-            width: 15%;
-            height: 12%;
-            margin-left: 10%;
+    .posteo-girona {
+        width: 20%;
+        height: 15%;
+        margin-left: 10%;
         }
-    .posteocomexar{
-            width: 15%;
-            height: 12%;
-            margin-left: 40%;
+    .posteo-comexar{
+        width: 20%;
+        height: 15%;
+        margin-left: 40%;
         }
-    .posteootorrino{
-            width: 15%;
-            height: 12%;
-            margin-left: 70%;
+    .posteo-otorrino{
+        width: 20%;
+        height: 15%;
+        margin-left: 70%;
         }
-    .imagenesposteo {
+    .imagenes-posteo {
         height: 170px;
         }
-    .contenedorcontacto{
-            height: 280px;
+    .contenedor-contacto{
+        height: 280px;
         }
     .contacto{
-            font-size: 60%;
+        font-size: 60%;
         }
-    .parrafo2{
-            font-size: 50%;
+    .parrafo-contacto{
+        font-size: 50%;
         }
-    .formulario{
-            font-size: 80%;
+    .formulario-contacto{
+        font-size: 80%;
         }
-        .prueba {
-            margin-top: 15%;
+    .cuadro-completar {
+        margin-top: 15%;
         }
-    .enviar{
-            font-size: 90%;
+    .boton-enviar{
+        font-size: 90%;
         }
-    .contenedorregistro{
+    .contenedor-registro{
         height: 200px;
     }
     .registro{
         font-size: 70%;
     }
-    .parrafo3{
+    .parrafo-registro{
         font-size: 50%;
     }
-    .formulario2{
+    .formulario-cliente{
         font-size: 70%;
         margin-left: 30%;
         margin-top: 12%;
     }
-        .aceptar{ 
+    .boton-aceptar{ 
         font-size: 70%;
-        width: 40%;
+        width: 60%;
         height: 8%;
         margin-top: 2%;
     }
-    .columna1{
-            font-size: 40%;
+    .columna-buscanos{
+        font-size: 40%;
         }
     .whatsapp{
         font-size: 80%;
